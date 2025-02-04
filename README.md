@@ -1,4 +1,6 @@
 ```console
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
 git clone https://github.com/azymuthia/azymuth-theme.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/themes/azymuth
 
 sed -i '/^ZSH_THEME=/c\ZSH_THEME="azymuth/azymuth"' ~/.zshrc
